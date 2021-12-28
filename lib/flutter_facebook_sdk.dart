@@ -54,10 +54,10 @@ class FlutterFacebookSdk {
   }
 
   /// InitializeSDK for iOS
-  Future<bool> initializeSDK() async {
-    await _channel.invokeMethod("initializeSDK");
-    return true;
-  }
+//   Future<bool> initializeSDK() async {
+//     await _channel.invokeMethod("initializeSDK");
+//     return true;
+//   }
 
   /// Logs App Activate Event of FBSDK
   Future<bool> logActivateApp() async {
